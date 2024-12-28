@@ -1,145 +1,157 @@
 {
   "books": [
     {
-      "id": 1,
-      "title": "A Portrait of the Void",
-      "pages": 340,
-      "price": 19.99,
-      "author": "Emily Carter"
+      "id": "1",
+      "title": "Echoes of the Past",
+      "pages": 320,
+      "price": 18.49,
+      "author": "Lily Adams",
+      "imageUrl": "https://example.com/images/echoes-of-the-past.jpg"
     },
     {
-      "id": 2,
-      "title": "The Starlit Abyss",
-      "pages": 420,
-      "price": 21.99,
-      "author": "Michael Johnson"
-    },
-    {
-      "id": 3,
+      "id": "2",
       "title": "Whispers of Forgotten Dreams",
       "pages": 300,
       "price": 17.99,
-      "author": "Sophia Mitchell"
+      "author": "Sophia Mitchell",
+      "imageUrl": "https://example.com/images/whispers-of-forgotten-dreams.jpg"
     },
     {
-      "id": 4,
+      "id": "3",
       "title": "Echoes of Silence",
       "pages": 280,
       "price": 14.99,
-      "author": "Daniel Peterson"
+      "author": "Daniel Peterson",
+      "imageUrl": "https://example.com/images/echoes-of-silence.jpg"
     },
     {
-      "id": 5,
+      "id": "4",
       "title": "The Midnight Wanderer",
       "pages": 360,
       "price": 20.99,
-      "author": "Olivia Smith"
+      "author": "Olivia Smith",
+      "imageUrl": "https://example.com/images/the-midnight-wanderer.jpg"
     },
     {
-      "id": 6,
+      "id": "5",
       "title": "Shadows of the Night",
       "pages": 310,
       "price": 18.99,
-      "author": "James Anderson"
+      "author": "James Anderson",
+      "imageUrl": "https://example.com/images/shadows-of-the-night.jpg"
     },
     {
-      "id": 7,
+      "id": "6",
       "title": "Crimson Horizons",
       "pages": 400,
       "price": 22.99,
-      "author": "Amelia Brown"
+      "author": "Amelia Brown",
+      "imageUrl": "https://example.com/images/crimson-horizons.jpg"
     },
     {
-      "id": 8,
+      "id": "7",
       "title": "The Forgotten Light",
       "pages": 390,
       "price": 19.99,
-      "author": "Benjamin Lee"
+      "author": "Benjamin Lee",
+      "imageUrl": "https://example.com/images/the-forgotten-light.jpg"
     },
     {
-      "id": 9,
+      "id": "8",
       "title": "Through the Twilight",
       "pages": 350,
       "price": 16.99,
-      "author": "Charlotte Davis"
+      "author": "Charlotte Davis",
+      "imageUrl": "https://example.com/images/through-the-twilight.jpg"
     },
     {
-      "id": 10,
+      "id": "9",
       "title": "The Eternal Flame",
       "pages": 370,
       "price": 21.99,
-      "author": "Ethan White"
+      "author": "Ethan White",
+      "imageUrl": "https://example.com/images/the-eternal-flame.jpg"
     },
     {
-      "id": 11,
-      "title": "The Eternal Flame",
-      "pages": 370,
-      "price": 21.99,
-      "author": "Ethan White"
+      "id": "10",
+      "title": "The Light of Eternity",
+      "pages": 380,
+      "price": 22.49,
+      "author": "Ethan White",
+      "imageUrl": "https://example.com/images/the-light-of-eternity.jpg"
     },
     {
-      "id": 12,
-      "title": "The Eternal Flame",
-      "pages": 370,
-      "price": 21.99,
-      "author": "Ethan White"
+      "id": "11",
+      "title": "Whispers of the Lost",
+      "pages": 300,
+      "price": 17.49,
+      "author": "Sophia Mitchell",
+      "imageUrl": "https://example.com/images/whispers-of-the-lost.jpg"
+    },
+    {
+      "id": "f975",
+      "title": "The Awakening Night",
+      "pages": 350,
+      "price": 19.99,
+      "author": "Gabriel Garcia Marquez",
+      "imageUrl": "https://example.com/images/the-awakening-night.jpg"
     }
   ],
   "authors": [
     {
-      "id": 1,
+      "id": "1",
       "name": "James",
       "surname": "Joyce"
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Virginia",
       "surname": "Woolf"
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "F. Scott",
       "surname": "Fitzgerald"
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Ernest",
       "surname": "Hemingway"
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "George",
       "surname": "Orwell"
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "Aldous",
       "surname": "Huxley"
     },
     {
-      "id": 7,
+      "id": "7",
       "name": "Leo",
       "surname": "Tolstoy"
     },
     {
-      "id": 8,
+      "id": "8",
       "name": "Gabriel Garcia",
       "surname": "Marquez"
     },
     {
-      "id": 9,
+      "id": "9",
       "name": "Charlotte",
       "surname": "Bronte"
     },
     {
-      "id": 10,
+      "id": "10",
       "name": "Herman",
       "surname": "Melville"
     },
     {
-      "id": "4bc9",
-      "name": "ara",
-      "surname": "ara"
+      "id": "f267",
+      "name": "Armen",
+      "surname": "Marjinyan"
     }
   ]
 }

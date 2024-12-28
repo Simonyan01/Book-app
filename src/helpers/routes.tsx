@@ -1,5 +1,5 @@
+import { BookDetails } from "@components/BookDetails.tsx"
 import { createBrowserRouter } from "react-router-dom"
-import { BookDetails } from "@pages/BookDetails.tsx"
 import { AddAuthor } from "@pages/AddAuthor"
 import { AddBook } from "@pages/AddBook"
 import { Books } from "@pages/Books"

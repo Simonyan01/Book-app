@@ -8,6 +8,7 @@ export default defineConfig({
   },
   resolve: {
     alias: {
+      "@components": "/src/components",
       "@data": "/src/data",
       "@helpers": "/src/helpers",
       "@pages": "/src/pages",

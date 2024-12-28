@@ -1,11 +1,11 @@
+import { useNavigate } from "react-router-dom"
 import { IAuthorForm } from "@helpers/types"
 import { addAuthor } from "@helpers/utils"
 import { useForm } from "react-hook-form"
-import { useNavigate } from "react-router-dom"
 
 export const AddAuthor = () => {
     const navigate = useNavigate()
-    const { register, handleSubmit, formState: { errors }, reset, } = useForm<IAuthorForm>()
+    const { register, handleSubmit, formState: { errors }, reset } = useForm<IAuthorForm>()
 
     const onSubmit = async (data: IAuthorForm) => {
         const { firstName, lastName } = data

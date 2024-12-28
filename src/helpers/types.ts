@@ -1,9 +1,10 @@
 export interface IBook {
-  id?: number
+  id?: string
   title: string
   pages: number
   price: number
   author: string
+  imageUrl?: string
 }
 
 export interface IBookForm {
@@ -25,5 +26,11 @@ export interface IAuthorForm {
 }
 
 export type BookProps = {
-  book?: IBook
+  book: IBook
+}
+
+export type ModalProps = BookProps & {
+  isOpen: boolean
+  onClose: () => void
+  onDelete: () => void
 }

@@ -1,7 +1,7 @@
 import { getAllBooks } from "@helpers/utils"
 import { useEffect, useState } from "react"
+import { Book } from "@components/Book"
 import { IBook } from "@helpers/types"
-import { Book } from "@pages/Book"
 
 export const Books = () => {
     const [books, setBooks] = useState<IBook[]>([])
@@ -21,10 +21,7 @@ export const Books = () => {
             ) : (
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                     {books.map((book) => (
-                        <Book
-                            key={book.id}
-                            book={book}
-                        />
+                        <Book key={book.id} book={book} />
                     ))}
                 </div>
             )}

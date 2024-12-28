@@ -11,6 +11,11 @@ export const getBookById = async (id: string): Promise<IBook> => {
   return response.data
 }
 
+export const getBookByTitle = async (title: string): Promise<IBook> => {
+  const response = await API.get(`/books?title=${title}`)
+  return response.data
+}
+
 export const getAllAuthors = async (): Promise<IAuthor[]> => {
   const response = await API.get("/authors")
   return response.data
@@ -23,5 +28,10 @@ export const addAuthor = async (author: IAuthor): Promise<IAuthor> => {
 
 export const addBook = async (book: IBook): Promise<IBook> => {
   const response = await API.post("/books", book)
+  return response.data
+}
+
+export const deleteBook = async (id: string): Promise<IBook> => {
+  const response = await API.delete(`/books/${id}`)
   return response.data
 }
